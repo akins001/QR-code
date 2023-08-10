@@ -15,6 +15,18 @@
   <h1 class="text_1"><strong>Improve your front-end skills by building projects</strong></h1>
     <p class="text_2">Scan the QR code to visit Frontend Mentor and takeyour coding skills to the next level</p>
 </div>   
+           <form action="sendEmail.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        <input type="submit" value="Send Email">
+    </form>
+    
 </main> 
 <footer>
     <div class="attribution">
